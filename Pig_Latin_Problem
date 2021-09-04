@@ -1,0 +1,3 @@
+def PigLatin(str):
+    l =  [x for x in str]
+    return ''.join(l[1:]) + "ay"
