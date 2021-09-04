@@ -1,0 +1,11 @@
+def FizzBuzz(n):
+    l1 = [x for x in range(0,n)]
+    for y in l1:
+        if y%15 == 0:
+            print('FizzBuzz')
+        elif y%3 == 0:
+            print('Fizz')
+        elif y%5 ==0:
+            print('Buzz')
+        else:
+            print(y)
